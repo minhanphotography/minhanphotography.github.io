@@ -306,8 +306,9 @@ footer {
 -----------------------------------------*/
 
 #home {
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
