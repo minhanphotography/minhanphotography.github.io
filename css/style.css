@@ -315,6 +315,7 @@ footer {
 
 .main-home {
   background-image: url("../images/bg/home-bg.webp");
+  background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
