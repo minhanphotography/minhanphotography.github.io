@@ -315,25 +315,16 @@ footer {
 
 .main-home {
 	background-image: url("../images/bg/home-bg.webp");
-    background-attachment: fixed;
 	background-position: center;
+  background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
-@media only screen and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-  /* CSS rules for iOS devices */
-  .main-home {
-    background-image: url('../images/bg/home-bg.webp');
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Use a different property for background attachment */
-    background-attachment: scroll;
-  }
-}
+
 .main-about {
   background: url("../images/bg/about-bg.webp") no-repeat;
+  width: 100%;
 }
 
 .main-gallery {
@@ -631,7 +622,7 @@ footer .footer-copyright {
   .main-about,
   .main-gallery,
   .main-contact {
-    height: 35vh;
+    height: 65vh;
   }
 
   h1,
