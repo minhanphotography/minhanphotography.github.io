@@ -141,10 +141,6 @@ footer {
   background-attachment: fixed !important;
   background-size: cover !important;
   overflow: hidden;
-
-  /* background-attachment: fixed; */
-	background-position: center !important;
-	/* background-size: cover; */
 }
 
 .section-title {
@@ -325,6 +321,10 @@ footer {
   overflow: hidden; */
 
   background-image: url("../images/bg/home-bg.webp") no-repeat;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+	background-position: center !important;
+  overflow: hidden;
 	height: 100vh; 
 }
 
