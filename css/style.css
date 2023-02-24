@@ -300,9 +300,6 @@ footer {
   Home section              
 -----------------------------------------*/
 #home {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -317,9 +314,17 @@ footer {
 }
 
 .main-home {
-  background: url("../images/bg/home-bg.webp") no-repeat;
+  /* background: url("../images/bg/home-bg.webp") no-repeat;
   height: 100vh;
-  width: 100%;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  overflow: hidden; */
+
+  background-image: url("../images/bg/home-bg.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh; 
 }
 
 .main-about {
@@ -447,12 +452,43 @@ PROJECT
 }
 
 /*---------------------------------------
+ Gallery section              
+-----------------------------------------*/
+/* #gallery span {
+display: block;
+padding-bottom: 32px;
+}
+
+#gallery .col-md-6 {
+padding-left: 0px;
+padding-right: 0px;
+} */
+/* #gallery .gallery-thumb {
+background-color: #ffffff;
+box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+cursor: pointer;
+display: block;
+position: relative;
+top: 0px;
+transition: all 0.4s ease-in-out;
+} */
+/* #gallery .gallery-thumb:hover {
+box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+top: -5px;
+}
+
+#gallery .gallery-thumb img {
+width: 100%;
+}
+
+#gallery .col-md-12 p {
+padding-top: 22px;
+text-align: center;
+} */
+/*---------------------------------------
  Contact section              
 -----------------------------------------*/
 .submit-button {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
   width: auto;
   border: 1px solid #f0f0f0;
   box-shadow: none;
@@ -463,7 +499,6 @@ PROJECT
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  border-radius: 4px;
 }
 
 #contact .col-md-4 {
@@ -520,6 +555,9 @@ PROJECT
   padding-left: 0px;
 }
 
+/*---------------------------------------
+ Blog Single Post section              
+-----------------------------------------*/
 /*---------------------------------------
  Footer section              
 -----------------------------------------*/
