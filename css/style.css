@@ -316,17 +316,10 @@ footer {
   text-align: center;
 }
 
-/* .main-home {
+.main-home {
   background: url("../images/bg/home-bg.webp") no-repeat;
   height: 100vh;
   width: 100%;
-} */
-.main-home {
-  background-image: url('../images/bg/home-bg.webp');
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  height: 100vh;
 }
 
 .main-about {
@@ -635,13 +628,6 @@ footer .footer-copyright {
   .hero-text {
     font-size: 42px;
   }
-  .main-home {
-    background-image: url('../images/bg/home-bg.webp');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 100vh;
-  }
 }
 
 @media (max-width: 768px) {
@@ -663,13 +649,6 @@ footer .footer-copyright {
 
   footer .col-md-4 {
     padding-top: 22px;
-  }
-  .main-home {
-    background-image: url('../images/bg/home-bg.webp');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 100vh;
   }
 }
 
@@ -696,12 +675,5 @@ footer .footer-copyright {
 
   footer {
     padding: 50px 0px;
-  }
-  .main-home {
-    background-image: url('../images/bg/home-bg.webp');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 100vh;
   }
 }
