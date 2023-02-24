@@ -314,18 +314,11 @@ footer {
 }
 
 .main-home {
-  /* background-image: url("../images/bg/home-bg.webp");
-  
+  background-image: url("../images/bg/home-bg.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;  */
-  background-image: url("../images/bg/gallery-bg.webp");
-  background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
+	height: 100vh; 
 }
 
 .main-about {
