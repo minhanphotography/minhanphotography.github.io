@@ -321,10 +321,9 @@ footer {
   overflow: hidden; */
 
   background-image: url("../images/bg/home-bg.webp") no-repeat;
-  background-attachment: fixed !important;
-  background-size: cover !important;
-	background-position: center !important;
-  overflow: hidden;
+  background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 	height: 100vh; 
 }
 
