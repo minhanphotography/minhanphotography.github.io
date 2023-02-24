@@ -123,7 +123,7 @@ footer {
 .main-about,
 .main-gallery,
 .main-contact {
-  height: 65vh;
+  height: 50vh;
 }
 
 .overlay {
@@ -138,8 +138,6 @@ footer {
 }
 
 .parallax-section {
-  background-attachment: fixed !important;
-  background-size: cover !important;
   overflow: hidden;
 }
 
@@ -323,16 +321,24 @@ footer {
 }
 
 .main-about {
-  background: url("../images/bg/about-bg.webp") no-repeat;
-  width: 100%;
+  background: url("../images/bg/about-bg.webp");
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .main-gallery {
-  background: url("../images/bg/gallery-bg.webp") no-repeat;
+  background: url("../images/bg/gallery-bg.webp");
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .main-contact {
-  background: url("../images/bg/contact-bg.webp") no-repeat;
+  background: url("../images/bg/contact-bg.webp");
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #particles-js {
@@ -372,8 +378,6 @@ footer {
  About section              
 -----------------------------------------*/
 #about {
-  padding-top: 200px;
-  padding-bottom: 150px;
   text-align: center;
 }
 
@@ -666,8 +670,8 @@ footer .footer-copyright {
   #about,
   #gallery,
   #contact{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   #home .btn {
