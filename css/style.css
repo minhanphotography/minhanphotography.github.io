@@ -270,7 +270,9 @@ a:hover, a:active, a:focus {
   cursor: pointer;
   background: #f0f0f0;
 }
-
+.top-nav-collapse{
+  background-color: #000;
+}
 /*---------------------------------------
   Home section              
 -----------------------------------------*/
@@ -476,6 +478,7 @@ text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   transition: all 0.4s ease-in-out;
+  color: #d2d2e5;
 }
 
 #contact .form-control:hover {
@@ -654,5 +657,9 @@ footer .footer-copyright {
 
   #home .btn {
       margin-top: 25px;
+  }
+
+  footer {
+    padding: 50px 0px;
   }
 }
