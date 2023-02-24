@@ -300,6 +300,10 @@ footer {
   Home section              
 -----------------------------------------*/
 #home {
+  background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -321,10 +325,6 @@ footer {
   overflow: hidden; */
 
   background-image: url("../images/bg/home-bg.webp");
-  background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	height: 100vh; 
 }
 
