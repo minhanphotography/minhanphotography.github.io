@@ -46,5 +46,5 @@ $(window).scroll(function() {
 
 //Copyright Text
 $("#copyright-text").text("© " + new Date().getFullYear() + " Min Han Photography. All rights reserved.");
-                
+
 

@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/viewer.min.css" />
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -23,6 +23,7 @@
       href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400"
       rel="stylesheet"
     />
+
   </head>
   <body>
     <!-- PRE LOADER -->
@@ -77,7 +78,7 @@
           <div class="col-md-12 col-sm-12">
             <h1 class="hero-text">Hello! This is Min Han.</h1>
             <h4>Capturing your special moments with artistry.</h4>
-            <a href="#blog" class="smoothScroll btn btn-default"
+            <a href="gallery.html/#gallery" class="smoothScroll btn btn-default"
               >Discover More</a
             >
           </div>
@@ -110,8 +111,8 @@
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
             <div class="project-item">
-              <a href="images/home/home-image-1.webp" class="image-popup">
                 <img
+                  data-original="images/home/home-image-1.webp"
                   src="images/home/home-image-1.webp"
                   class="img-responsive"
                   alt=""
@@ -123,11 +124,10 @@
                     <h3>Click to pop up!</h3>
                   </div>
                 </div>
-              </a>
             </div>
 
             <div class="project-item">
-              <a href="images/home/home-image-3.webp" class="image-popup">
+              <a data-original="images/home/home-image-1.webp">
                 <img
                   src="images/home/home-image-3.webp"
                   class="img-responsive"
@@ -136,7 +136,7 @@
 
                 <div class="project-overlay">
                   <div class="project-info">
-                    <h1>Portait</h1>
+                    <h1>Portrait</h1>
                     <h3>Click to pop up!</h3>
                   </div>
                 </div>
@@ -146,7 +146,7 @@
 
           <div class="col-lg-6 mb-4 mb-lg-0">
             <div class="project-item">
-              <a href="images/home/home-image-2.webp" class="image-popup">
+              <a href="images/home/home-image-2.webp" data-gallery="photoviewer" data-title="Wedding">
                 <img
                   src="images/home/home-image-2.webp"
                   class="img-responsive"
@@ -162,8 +162,9 @@
               </a>
             </div>
             <div class="project-item">
-              <a href="images/home/home-image-4.webp" class="image-popup">
+             
                 <img
+                id="image"
                   src="images/home/home-image-4.webp"
                   class="img-responsive"
                   alt=""
@@ -175,7 +176,6 @@
                     <h3>Click to pop up!</h3>
                   </div>
                 </div>
-              </a>
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@
             <p><i class="fa fa-envelope"></i>minhanphotography@gmail.com</p>
             <p>
               <i class="fa fa-save"></i
-              ><a href="https:/minhanphotography.github.io/contact"
+              ><a href="/contact.html"
                 >Contact Us</a
               >
             </p>
@@ -217,9 +217,9 @@
 
           <div class="col-md-12 col-sm-12">
             <ul class="social-icon">
-              <li><a href="#" class="fa fa-facebook"></a></li>
-              <li><a href="#" class="fa fa-instagram"></a></li>
-              <li><a href="#" class="fa fa-envelope"></a></li>
+              <li><a href="https://www.facebook.com/minhanphotography" class="fa fa-facebook"></a></li>
+              <li><a href="https://www.instagram.com/minyzhan/" class="fa fa-instagram"></a></li>
+              <li><a href="mailto:minhanphotography@gmail.com" class="fa fa-envelope"></a></li>
             </ul>
           </div>
         </div>
@@ -230,7 +230,8 @@
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
     <!-- SCRIPTS -->
-
+    <script src="js/viewer.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/particles.min.js"></script>
@@ -238,7 +239,6 @@
     <script src="js/jquery.parallax.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
+
   </body>
 </html>
