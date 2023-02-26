@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/viewer.min.css" />
+    <link rel="stylesheet" href="css/photoviewer.min.css" />
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -23,7 +23,6 @@
       href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400"
       rel="stylesheet"
     />
-
   </head>
   <body>
     <!-- PRE LOADER -->
@@ -61,7 +60,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li ><a href="gallery.html">Gallery</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -103,7 +102,6 @@
         </div>
       </div>
     </section>
-
     <!-- PROJECT -->
     <section id="project" class="parallax-section">
       <div class="container">
@@ -111,8 +109,14 @@
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
             <div class="project-item">
+              <a
+                href="images/home/home-image-1.webp"
+                data-gallery="photoviewer"
+                data-title="Fashion"
+                data-group="a"
+                data-index= 0
+              >
                 <img
-                  data-original="images/home/home-image-1.webp"
                   src="images/home/home-image-1.webp"
                   class="img-responsive"
                   alt=""
@@ -124,10 +128,17 @@
                     <h3>Click to pop up!</h3>
                   </div>
                 </div>
+              </a>
             </div>
 
             <div class="project-item">
-              <a data-original="images/home/home-image-1.webp">
+              <a
+                href="images/home/home-image-3.webp"
+                data-gallery="photoviewer"
+                data-title="Portrait"
+                data-group="a"
+                data-index= 1
+              >
                 <img
                   src="images/home/home-image-3.webp"
                   class="img-responsive"
@@ -146,7 +157,13 @@
 
           <div class="col-lg-6 mb-4 mb-lg-0">
             <div class="project-item">
-              <a href="images/home/home-image-2.webp" data-gallery="photoviewer" data-title="Wedding">
+              <a
+                href="images/home/home-image-2.webp"
+                data-gallery="photoviewer"
+                data-title="Wedding"
+                data-group="a"
+                data-index= 2
+              >
                 <img
                   src="images/home/home-image-2.webp"
                   class="img-responsive"
@@ -162,9 +179,14 @@
               </a>
             </div>
             <div class="project-item">
-             
+              <a
+                href="images/home/home-image-4.webp"
+                data-gallery="photoviewer"
+                data-title="Lifestyle"
+                data-group="a"
+                data-index= 3
+              >
                 <img
-                id="image"
                   src="images/home/home-image-4.webp"
                   class="img-responsive"
                   alt=""
@@ -176,6 +198,7 @@
                     <h3>Click to pop up!</h3>
                   </div>
                 </div>
+              </a>
             </div>
           </div>
         </div>
@@ -204,10 +227,7 @@
             <h3>Talk to us</h3>
             <p><i class="fa fa-envelope"></i>minhanphotography@gmail.com</p>
             <p>
-              <i class="fa fa-save"></i
-              ><a href="/contact.html"
-                >Contact Us</a
-              >
+              <i class="fa fa-save"></i><a href="/contact.html">Contact Us</a>
             </p>
           </div>
 
@@ -217,9 +237,24 @@
 
           <div class="col-md-12 col-sm-12">
             <ul class="social-icon">
-              <li><a href="https://www.facebook.com/minhanphotography" class="fa fa-facebook"></a></li>
-              <li><a href="https://www.instagram.com/minyzhan/" class="fa fa-instagram"></a></li>
-              <li><a href="mailto:minhanphotography@gmail.com" class="fa fa-envelope"></a></li>
+              <li>
+                <a
+                  href="https://www.facebook.com/minhanphotography"
+                  class="fa fa-facebook"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/minyzhan/"
+                  class="fa fa-instagram"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="mailto:minhanphotography@gmail.com"
+                  class="fa fa-envelope"
+                ></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -230,15 +265,15 @@
     <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
 
     <!-- SCRIPTS -->
-    <script src="js/viewer.min.js"></script>
-    <script src="js/main.js"></script>
+
     <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.parallax.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-
+    <script src="js/photoviewer.min.js"></script>
   </body>
 </html>

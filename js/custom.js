@@ -36,15 +36,34 @@ $(".navbar-collapse a").on("click", function () {
   $(".navbar-collapse").collapse("hide");
 });
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(".navbar").offset().top > 50) {
     $(".navbar-fixed-top").addClass("top-nav-collapse");
-      } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-      }
+  } else {
+    $(".navbar-fixed-top").removeClass("top-nav-collapse");
+  }
 });
 
 //Copyright Text
-$("#copyright-text").text("© " + new Date().getFullYear() + " Min Han Photography. All rights reserved.");
+$("#copyright-text").text(
+  "© " + new Date().getFullYear() + " Min Han Photography. All rights reserved."
+);
 
+// initialize manually with a list of links
+$("[data-gallery=photoviewer]").click(function (e) {
+  e.preventDefault();
+  console.log($(this).attr("data-index"))
+  var items = [],
+    options = {
+      index: $(this).attr("data-index"),
+    };
 
+  $("[data-gallery=photoviewer]").each(function () {
+    items.push({
+      src: $(this).attr("href"),
+      title: $(this).attr("data-title"),
+    });
+  });
+
+  new PhotoViewer(items, options);
+});
