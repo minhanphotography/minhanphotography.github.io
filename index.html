@@ -69,7 +69,28 @@
 
     <!-- Home Section -->
 
-    <section id="home" class="main-home">
+    <section id="home" style="height : 100vh">
+      <div style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        display: 'flex';
+        align-items: 'center';
+        justify-content: 'center';
+      ">
+        <Image
+          src="images/bg/home-bg.webp"
+          className="main-home"
+          style="
+            width: 100%;
+            height: 100%;
+            object-fit: 'cover';
+          "
+        />
+      </div>
       <div class="overlay"></div>
       <div id="particles-js"></div>
       <div class="container">
